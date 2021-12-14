@@ -1,0 +1,27 @@
+{
+  "name": "backendAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "startDev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.13.0",
+    "https": "^1.0.0",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.0.11",
+    "mssql": "^7.2.1",
+    "nodemon": "^2.0.13",
+    "uuid": "^8.3.2"
+  }
+}

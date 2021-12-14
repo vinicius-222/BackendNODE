@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /backEndSalato/index.php?url=$1 [QSA,L]
+php_value upload_max_filesize 10000M
+php_value post_max_size 10000M
